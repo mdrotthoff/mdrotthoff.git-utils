@@ -3,7 +3,7 @@
 
 Here is the git-pull logic for developing Python app:
 
-1. Identify all core level git repositories
+1. Identify all core level git repositories  
 		(find <dir> -name '.git' -type d)
 1. For each core repository
    1. Find the repository path
