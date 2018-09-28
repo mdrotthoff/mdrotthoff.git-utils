@@ -8,8 +8,10 @@ Here is the git-pull logic for developing Python app:
 1. For each core repository
    1. Find the repository path
    1. Change to the repository path
-   1. Fetch all updates to the repository (git fetch --all --prune)
-   1. Update the current branch (git pull)
+   1. Fetch all updates to the repository  
+		(git fetch --all --prune)
+   1. Update the current branch  
+		(git pull)
    1. If not on a current branch, type to checkout the master branch (git checkout master)
    1. Register any submodule that is not properly registered (git submodule update --init)
    1. For each submodule
